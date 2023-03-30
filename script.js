@@ -32,6 +32,11 @@ const handleStyle = {
   texto(value) {
     this.element.innerText = `${value}`;
   },
+  fontWeight(value) {
+
+    this.element.style.fontWeight = `${value}`;
+
+  },
 }
 
 function handleChange(event) {
